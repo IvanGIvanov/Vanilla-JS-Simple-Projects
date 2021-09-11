@@ -12,29 +12,43 @@ body {
     margin: 0;
 }
 
-.notes {
+.add {
+    background-color: goldenrod;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 0.5 rem 1 rem;
+    margin: 2rem auto;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+
+.note {
     background-color: whitesmoke;
     margin: 20px;
     height: 400px;
     width: 400px;
 }
 
-.notes .tools {
+.note .tools {
     background-color: green;
     display: flex;
     justify-content: flex-end;
     padding: 0.5rem;
 }
 
-.notes .tools button {
+.note .tools button {
     background-color: transparent;
     border: none;
     color: whitesmoke;
+    cursor: pointer;
     font-size: 1rem;
     margin-left: 0.5rem;
 } 
 
-.notes .main {
+.note .main {
     background-color: whitesmoke;
     font-family: inherit;
     overflow: hidden;
@@ -42,15 +56,15 @@ body {
     width: 100%;
 }
 
-.notes textarea {
+.note textarea {
     outline: none;
     font-family: inherit;
     font-size: 1.2rem;
     border: none;
-    height: 100%;
-    width: 100%;
+    height: 363px;
+    width: 400px;
 }
 
-.notes .hidden {
+.note .hidden {
     display: none;
 }
